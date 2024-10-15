@@ -6,7 +6,9 @@
  * @returns {number} temperature in °C
  */
 function convertToCelsius(f) {
-  // TODO
+  // I have to convert F to C
+const celTemp = (f - 32) * (5 / 9);
+return celTemp;
 }
 
 /**
@@ -22,8 +24,8 @@ function convertToCelsius(f) {
  * @returns {string} the description from the table above corresponding to
  * the given Fahrenheit temperature `f`
  */
-function describeTemperature(f) {
-  // TODO
+const describeTemperature = (f) => {
+  const userInput = < 32 
 }
 
 /**
